@@ -1,0 +1,16 @@
+### Items Index
+GET http://localhost:3000/items
+
+### Items Create 
+POST http://localhost:3000/items
+Content-Type: application/json
+
+### Items Show
+GET http://localhost:3000/items/1
+
+### Items Update
+PATCH http://localhost:3000/items/1
+Content-Type: application/json
+
+### Items Destroy
+DELETE http://localhost:3000/items/2 
